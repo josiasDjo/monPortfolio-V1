@@ -8,9 +8,9 @@ export const personal = {
   cv: '/cv-josias-kabambi.pdf',
   email: 'josias.kabambi@gmail.com',
   socials: {
-    github: 'https://github.com/josiasdjo',
-    linkedin: 'https://linkedin.com/in/josias-kabambi',
-    twitter: 'https://x.com/josiasdjo',
+    github: 'https://github.com/josiasDjo',
+    linkedin: 'www.linkedin.com/in/josias-besodia',
+    twitter: 'https://x.com/josiasKabambi',
   },
 }
 
