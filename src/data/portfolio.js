@@ -1,6 +1,6 @@
 export const personal = {
   name: 'Josias Kabambi',
-  title: 'Full Stack & Ingénieur Réseau (Télécom)',
+  title: 'Full Stack & Ingénieur Réseau',
   location: 'Goma, Congo DR',
   pitch:
     "Je conçois des applications web performantes et des infrastructures réseau fiables. Du code à la configuration, je transforme les besoins concrets en solutions qui fonctionnent.",
