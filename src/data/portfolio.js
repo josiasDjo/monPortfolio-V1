@@ -6,7 +6,7 @@ export const personal = {
     "Je conçois des applications web performantes et des infrastructures réseau fiables. Du code à la configuration, je transforme les besoins concrets en solutions qui fonctionnent.",
   avatar: '/avatar.png',
   cv: '/cv-josias-kabambi.pdf',
-  email: 'josias.kabambi@gmail.com',
+  email: 'besodiakabambi@gmail.com',
   socials: {
     github: 'https://github.com/josiasDjo',
     linkedin: 'www.linkedin.com/in/josias-besodia',
