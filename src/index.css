@@ -3,8 +3,21 @@
 @tailwind utilities;
 
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+::selection {
+  background-color: rgba(249, 115, 22, 0.3);
+}
+
 .image-hero {
     width: 20rem;
     height: 20rem;
 }
-
