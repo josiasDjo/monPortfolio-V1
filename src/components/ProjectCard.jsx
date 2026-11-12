@@ -31,10 +31,10 @@ export default function ProjectCard({ project, index }) {
 
       <div className="p-6">
         <div className="mb-2 flex items-center gap-2 text-xs font-medium uppercase tracking-wide text-accent">
-          {project.type === 'web' ? <Globe size={12} /> : <Github size={12} />}
+          {/* {project.type === 'web' ? <Globe size={12} /> : <Github size={12} />} */}
           {project.type === 'web' ? 'Développement Web' : 'Réseau & Infra'}
         </div>
-        <h3 className="font-display text-xl font-bold">{project.title}</h3>
+        <h3 className="font-display text-xl font-bold text-orange-700">{project.title}</h3>
         <p className="mt-1 text-sm font-medium text-neutral-500">{project.subtitle}</p>
         <p className="mt-3 text-sm text-neutral-600 dark:text-neutral-400">{project.description}</p>
 

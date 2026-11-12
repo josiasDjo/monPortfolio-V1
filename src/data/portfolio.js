@@ -81,7 +81,7 @@ export const projects = [
       "Conception et développement d'un site web moderne pour DEBISOL, avec une attention particulière portée à la performance et à l'expérience utilisateur.",
     problem:
       "L'entreprise avait besoin d'une présence digitale professionnelle pour présenter ses activités et attirer de nouveaux clients.",
-    tech: ['Next.js', 'PHP'],
+    tech: ['Next.js', 'PHP', 'Tailwind CSS', 'MariaDB', ],
     image: '/public/BG-Debisol.png',
     link: 'https://www.debisol.com/',
     type: 'web',
