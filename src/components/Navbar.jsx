@@ -27,7 +27,7 @@ export default function Navbar({ theme, toggleTheme }) {
     >
       <nav className="mx-auto flex h-16 w-full max-w-6xl items-center justify-between px-6 md:px-8">
         <a href="#hero" className="font-display text-lg font-bold tracking-tight">
-          JK<span className="text-accent">.</span>
+          DJO<span className="text-accent">.</span>
         </a>
 
         <div className="hidden items-center gap-8 md:flex">
