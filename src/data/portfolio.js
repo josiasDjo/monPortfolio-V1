@@ -56,7 +56,7 @@ export const projects = [
     problem:
       "Les exploitants agricoles manquaient d'un outil unique pour suivre leurs parcelles et leurs interventions, ce qui entraînait des pertes de données et une mauvaise traçabilité.",
     tech: ['React.js', 'Tailwind CSS', 'Express.js', 'MariaDB'],
-    image: '/public/BG-Fertilia.png',
+    image: '/BG-Fertilia.png',
     link: 'https://fertilia.vercel.app/',
     type: 'web',
   },
@@ -82,7 +82,7 @@ export const projects = [
     problem:
       "L'entreprise avait besoin d'une présence digitale professionnelle pour présenter ses activités et attirer de nouveaux clients.",
     tech: ['Next.js', 'PHP', 'Tailwind CSS', 'MariaDB', ],
-    image: '/public/BG-Debisol.png',
+    image: '/BG-Debisol.png',
     link: 'https://www.debisol.com/',
     type: 'web',
   },
