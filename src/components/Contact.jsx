@@ -26,28 +26,13 @@ export default function Contact() {
 
   return (
     <SectionWrapper id="contact">
-      <div className="grid gap-12 md:grid-cols-2">
+      <div className="flex flex-col md:grid-rows-3">
         <div>
-          <span className="text-sm font-semibold uppercase tracking-widest text-accent">04 — Contact</span>
-          <h2 className="mt-4 font-display text-3xl font-bold md:text-4xl">Travaillons ensemble.</h2>
+          <span className="text-sm font-semibold uppercase tracking-widest text-accent text-orange-700">Contact</span>
+          {/* <h2 className="mt-4 font-display text-3xl font-bold md:text-4xl">Travaillons ensemble.</h2>
           <p className="mt-4 max-w-md text-neutral-600 dark:text-neutral-400">
             Un projet en tête ? Une mission freelance ? Écris-moi, je réponds sous 24h.
-          </p>
-
-          <div className="mt-8 flex gap-3">
-            {socials.map(({ icon: Icon, href, label }) => (
-              <a
-                key={label}
-                href={href}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={label}
-                className="flex h-11 w-11 items-center justify-center rounded-full border border-neutral-300 transition-all hover:-translate-y-0.5 hover:border-accent hover:text-accent dark:border-neutral-700"
-              >
-                <Icon size={18} />
-              </a>
-            ))}
-          </div>
+          </p> */}
         </div>
 
         <motion.form
@@ -56,7 +41,7 @@ export default function Contact() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="space-y-4 rounded-2xl border border-neutral-200 bg-white p-6 dark:border-neutral-800 dark:bg-[#141414]"
+          className="my-5 rounded-2xl border border-neutral-200 bg-white p-6 dark:border-neutral-800 dark:bg-[#141414]"
         >
           <div>
             <label className="mb-1.5 block text-sm font-medium">Nom</label>
@@ -98,6 +83,20 @@ export default function Contact() {
             Envoyer <Send size={16} />
           </button>
         </motion.form>
+          <div className="mt-8 flex gap-3">
+            {socials.map(({ icon: Icon, href, label }) => (
+              <a
+                key={label}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={label}
+                className="flex h-11 w-11 items-center justify-center rounded-full border border-neutral-300 transition-all hover:-translate-y-0.5 hover:border-accent hover:text-accent dark:border-neutral-700"
+              >
+                <Icon size={18} />
+              </a>
+            ))}
+          </div>
       </div>
     </SectionWrapper>
   )

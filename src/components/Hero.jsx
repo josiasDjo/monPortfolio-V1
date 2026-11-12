@@ -69,17 +69,17 @@ export default function Hero() {
             >
               <a
                 href="#projects"
-                className="inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white transition-all duration-300 hover:bg-accent-dark hover:shadow-lg hover:shadow-accent/20 active:scale-95"
+                className="inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white transition-all duration-300 bg-orange-700 hover:bg-orange-500 hover:shadow-lg hover:shadow-accent/20 active:scale-95"
               >
                 Voir mes projets
               </a>
-              <a
+              {/* <a
                 href={personal.cv}
                 download
                 className="inline-flex items-center gap-2 rounded-full border border-neutral-300 px-6 py-3 text-sm font-semibold transition-all duration-300 hover:border-accent hover:text-accent dark:border-neutral-700"
               >
                 <Download size={16} /> Télécharger mon CV
-              </a>
+              </a> */}
             </motion.div>
 
             <motion.div
@@ -99,7 +99,7 @@ export default function Hero() {
             className="relative mx-auto hidden md:block"
           >
             <div className="relative h-80 w-80">
-              <div className="absolute inset-0 animate-spin-slow rounded-full border border-dashed border-accent/30" />
+              <div className="absolute inset-0 animate-spin-slow rounded-full border border-dashed border-accent/30 border-orange-700" />
               <div className="absolute inset-6 rounded-full border border-neutral-200 dark:border-neutral-800" />
               <div className="absolute inset-10 overflow-hidden rounded-full bg-gradient-to-br from-accent/20 to-accent/5">
                 <img

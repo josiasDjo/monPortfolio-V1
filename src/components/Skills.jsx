@@ -6,8 +6,8 @@ export default function Skills() {
   return (
     <SectionWrapper id="skills">
       <div className="mb-12 max-w-2xl">
-        <span className="text-sm font-semibold uppercase tracking-widest text-accent">02 — Compétences</span>
-        <h2 className="mt-4 font-display text-3xl font-bold md:text-4xl">Ce que je sais faire.</h2>
+        <span className="text-sm font-semibold uppercase tracking-widest text-accent text-orange-700">Compétences</span>
+        {/* <h2 className="mt-4 font-display text-3xl font-bold md:text-4xl">Ce que je sais faire.</h2> */}
       </div>
 
       <div className="grid gap-6 md:grid-cols-3">

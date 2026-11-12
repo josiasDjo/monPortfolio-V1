@@ -44,12 +44,12 @@ export default function Navbar({ theme, toggleTheme }) {
 
         <div className="flex items-center gap-3">
           <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
-          <a
+          {/* <a
             href="#contact"
             className="hidden items-center gap-2 rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white transition-all duration-300 hover:bg-accent-dark hover:shadow-lg hover:shadow-accent/20 active:scale-95 md:inline-flex"
           >
             Me contacter
-          </a>
+          </a> */}
           <button
             className="flex h-10 w-10 items-center justify-center rounded-full border border-neutral-300 md:hidden dark:border-neutral-700"
             onClick={() => setOpen(!open)}

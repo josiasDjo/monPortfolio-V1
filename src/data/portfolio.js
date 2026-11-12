@@ -21,7 +21,7 @@ export const about = {
 
 export const skills = [
   {
-    category: 'Développement',
+    category: 'Développement Web',
     items: ['JavaScript', 'React.js', 'Next.js', 'PHP', 'C#', 'Python', 'Tailwind CSS', 'SQL'],
   },
   {
@@ -56,7 +56,7 @@ export const projects = [
     problem:
       "Les exploitants agricoles manquaient d'un outil unique pour suivre leurs parcelles et leurs interventions, ce qui entraînait des pertes de données et une mauvaise traçabilité.",
     tech: ['React.js', 'Tailwind CSS', 'Express.js', 'MariaDB'],
-    image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80',
+    image: '/public/BG-Fertilia.png',
     link: 'https://fertilia.vercel.app/',
     type: 'web',
   },
@@ -82,7 +82,7 @@ export const projects = [
     problem:
       "L'entreprise avait besoin d'une présence digitale professionnelle pour présenter ses activités et attirer de nouveaux clients.",
     tech: ['Next.js', 'PHP'],
-    image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&q=80',
+    image: '/public/BG-Debisol.png',
     link: 'https://www.debisol.com/',
     type: 'web',
   },
