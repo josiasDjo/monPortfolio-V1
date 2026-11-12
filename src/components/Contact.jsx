@@ -83,7 +83,7 @@ export default function Contact() {
             Envoyer <Send size={16} />
           </button>
         </motion.form>
-          <div className="mt-8 flex gap-3">
+          <div className="mt-8 flex gap-3 items-center justify-center">
             {socials.map(({ icon: Icon, href, label }) => (
               <a
                 key={label}
