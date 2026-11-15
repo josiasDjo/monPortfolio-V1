@@ -16,7 +16,7 @@ export const personal = {
 
 export const about = {
   intro: "Je suis un développeur Full Stack et ingénieur réseau basé à Goma, en République Démocratique du Congo.",
-  body: "Mon parcours hybride me permet d'intervenir aussi bien sur le développement d'applications web modernes que sur la configuration d'infrastructures réseau et télécom. J'aime résoudre des problèmes concrets : centraliser la gestion d'une exploitation agricole, sécuriser l'accès distant aux ressources d'une organisation, ou construire une présence digitale efficace.",
+  body: "Mon parcours hybride me permet d'intervenir aussi bien sur le développement d'applications web modernes que sur la configuration d'infrastructures réseau et télécom. J'aime concevoir des solutions fiables, pensées pour durer, et qui répondent à de vrais besoins terrain.",
 }
 
 export const skills = [
